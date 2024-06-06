@@ -45,7 +45,7 @@ urs = 'urs.earthdata.nasa.gov'    # Address to call for authentication
 # --------------------------------AUTHENTICATION CONFIGURATION----------------------------------- #
 # Determine if netrc file exists, and if so, if it includes NASA Earthdata Login Credentials
 try:
-    netrcDir = os.path.expanduser(r"C:/Users/bob.stankovic/.netrc")
+    netrcDir = os.path.expanduser(r"C:/.....vic/.netrc")
     netrc(netrcDir).authenticators(urs)[0]
 
 # Below, create a netrc file and prompt user for NASA Earthdata Login Username and Password
